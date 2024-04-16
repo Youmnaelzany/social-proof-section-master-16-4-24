@@ -1,0 +1,119 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "@/styles/globals.css";
+---
+
+<Layout title="Frontend Mentor | Social proof section">
+  <main class="bg-[#fff] relative">
+    <picture>
+      <source
+        media="(min-width:768px )"
+        srcset="/images/bg-pattern-top-desktop.svg"
+      />
+      <img
+        src="/images/bg-pattern-top-mobile.svg"
+        alt="bg-pattern-top"
+        class="absolute top-0 left-0 -z-10"
+      />
+    </picture>
+    <section
+      class="z-50 mt-[5.13rem] mb-[3.06rem] mx-6 lg:mt-[7.37rem] lg:mb-[4.44rem] lg:mx-[10.31rem] flex flex-col items-center text-center lg:flex-row lg:justify-between gap-[2.44rem] lg:gap-[7.81rem] lg:text-left"
+    >
+      <div
+        class="lg:w-[27.8125rem] flex flex-col lg:gap-4 gap-[1.06rem] w-[20.4375rem]"
+      >
+        <h1
+          class="text-[#512051] text-[2.5rem] font-bold leading-8 tracking-[-0.08931rem] lg:text-[3.5rem] lg:leading-[3rem] lg:tracking-[-0.125rem]"
+        >
+          10,000+ of our users love our products.
+        </h1>
+        <p
+          class="text-[#927B91] text-[1.1875rem] font-medium leading-[1.5625rem] tracking-[-0.03956rem]"
+        >
+          We only provide great products combined with excellent customer
+          service. See what our satisfied customers are saying about our
+          services.
+        </p>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div
+          class="w-[20.4375rem] h-[4.875rem] rounded-lg bg-[#F7F2F7] flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:gap-[2.03rem] gap-[0.95rem] pt-4 pb-[0.94rem] lg:w-[27.8125rem] lg:h-14 lg:pl-8 lg:pr-[4.94rem]"
+        >
+          <!-- Star Wrapper -->
+          <div class="flex gap-2">
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+          </div>
+          <h2 class="text-[#512051] font-bold text-[1.0625rem] leading-normal">
+            Rated 5 Stars in Reviews
+          </h2>
+        </div>
+        <div
+          class="w-[20.4375rem] h-[4.875rem] rounded-lg bg-[#F7F2F7] flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:gap-[2.03rem] gap-[0.95rem] pt-4 pb-[0.94rem] lg:w-[27.8125rem] lg:h-14 lg:pl-8 lg:pr-[4.94rem] lg:ml-12"
+        >
+          <!-- Star Wrapper -->
+          <div class="flex gap-2">
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+          </div>
+          <h2 class="text-[#512051] font-bold text-[1.0625rem] leading-normal">
+            Rated 5 Stars in Report Guru
+          </h2>
+        </div>
+        <div
+          class="w-[20.4375rem] h-[4.875rem] rounded-lg bg-[#F7F2F7] flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:gap-[2.03rem] gap-[0.95rem] pt-4 pb-[0.94rem] lg:w-[27.8125rem] lg:h-14 lg:pl-8 lg:pr-[4.94rem] lg:ml-24"
+        >
+          <!-- Star Wrapper -->
+          <div class="flex gap-2">
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+            <img src="/public/images/icon-star.svg" alt="" class="icon-star" />
+          </div>
+          <h2 class="text-[#512051] font-bold text-[1.0625rem] leading-normal">
+            Rated 5 Stars in BestTech
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section
+      class="mx-6 mb-[6.19rem] lg:mb-[6.25rem] lg:mx-[10.31rem] flex flex-col gap-4 lg:flex-row lg:gap-[1.88rem] items-center lg:justify-between"
+    >
+      <div
+        class="w-[20.4375rem] h-[15.5rem] bg-[#512051] rounded-lg lg:w-[21.875rem] lg:h-[14.625rem] px-8 pt-10 pb-[2.19rem]"
+      >
+        <div class="flex gap-[1.44rem]">
+          <img
+            src="/public/images/image-colton.jpg"
+            alt="image-colton"
+            class="size-10 rounded-full"
+          />
+          <div class="flex flex-col gap-1 text-[1.0625rem]">
+            <h3 class="font-bold text-white">Colton Smith</h3>
+            <h3 class="text-normal">Verified Buyer</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <picture>
+      <source
+        media="(min-width:768px )"
+        srcset="/images/bg-pattern-bottom-desktop.svg"
+      />
+      <img
+        src="/images/bg-pattern-bottom-mobile.svg"
+        alt="bg-pattern-top"
+        class="absolute bottom-0 right-0 -z-10"
+      />
+    </picture>
+  </main>
+</Layout>
+
+<style></style>
